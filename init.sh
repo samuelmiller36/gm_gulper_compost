@@ -1,4 +1,4 @@
-npm install gulp && npm install gulp-cli
+
 npm install apache-server-configs
 npm install connect
 npm install connect-livereload
