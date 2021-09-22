@@ -26,5 +26,5 @@ npm install opn
 npm install serve-index
 npm install serve-static
 
-git clone https://github.com/glua/load-seed.git
-mv load-seed /.
+git clone https://github.com/glua/load-seed
+cd load-seed
