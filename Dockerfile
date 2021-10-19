@@ -8,8 +8,6 @@ ENV TERM="xterm" LANG="C.UTF-8" LC_ALL="C.UTF-8"
 # Had to add this so that I don't go crazy
 STOPSIGNAL SIGKILL
 
-# I don't know why but Visual Studio Insisted that I add this
-COPY ["package.json*", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
 
 # Init Production
 RUN npm install --production --silent && mv node_modules ../
